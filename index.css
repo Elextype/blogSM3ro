@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefcfc;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('Leonardo_Phoenix_10_A_futuristic_virtual_reality_background_im_0.jpg'); /* Asegúrate de tener una imagen de fondo */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 120px;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+header:hover {
+    opacity: 70%;
+}
+
+.header-content {
+    background-color: rgb(16, 15, 15); /* Fondo semi-transparente para mejorar la legibilidad */
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #e5e6ec;
+}
+h2 {
+    color: #031529;
+    font-size: 21px;
+    padding: 12px;
+    font-family: sans-serif;
+}
+
+.barra {
+    width: 100%;
+    height: 64px;
+    background-color: #3b83d5;
+    border-radius: 4px;
+    margin: 0, 5px, 5px, 5px;
+}
+
+p {
+    color: #031529;
+    font-size: 18px;
+    font-family: Verdana;
+    padding: 14px;
+    text-align: justify;
+}
+
+.editor_vd {
+    width: 76%;
+    height: 360px;
+    border-radius: 11px;
+    margin: auto;
+    display: block;
+}
+
+.IIinfo {
+    color: #031529;
+    font-size: 18px;
+    font-family: Verdana;
+    padding: 4px;
+}
+
+.info_separada {
+    padding: 15px;
+    margin: auto;
+    width: 72%;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 6px;
+    border-radius: 7px;
+}
+
+.img_editor {
+    width: 72%;
+    height: 470px; 
+    display: block;
+    background-size: cover;
+    margin: 10px auto; /* Centra el video */
+    border-radius: 10px; /* Bordes redondeados */ 
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+header:hover {
+    opacity: 70%;
+}
+
+.dividir_car {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.primer_info {
+    display: inline-block;
+    min-width: 295px;
+    width: 50%;
+    background-color: #284c6f; 
+    padding: 14px;
+    flex: 1;
+}
+
+.segunda_info {
+    display: inline-block;
+    min-width: 295px;
+    width: 50%;
+    background-color: #d9e9f8; 
+    padding: 14px;
+    flex: 1;
+}
+
+.blanco {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Verdana;
+    padding: 14px;
+    text-align: justify;
+}
+
+.separar_dos {
+    margin: auto;
+    justify-content: center;
+    width: 68%;
+}
+
+.img_flex {
+    width: 100%;
+    height: 470px; 
+    display: block;
+    background-size: cover;
+    margin: 10px auto; /* Centra el video */
+    border-radius: 10px; /* Bordes redondeados */ 
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    background-color: #faf9f9;
+    padding: 10px;
+}
